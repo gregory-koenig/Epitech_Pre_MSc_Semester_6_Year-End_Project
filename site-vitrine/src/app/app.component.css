@@ -1,0 +1,58 @@
+html {
+  background-color: transparent;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+.navbar {
+  margin-top: 1.5rem;
+  background-color: transparent;
+}
+
+.img-logo {
+  width: 76px!important;
+  margin-right: 14rem;
+}
+
+.navbar-item img {
+  max-height: none;
+  width: 225px;
+}
+
+.button.is-primary {
+  background-color: #2360a4;
+  border-color: transparent;
+  color: #f7f7f7;
+}
+
+.navbar-item, .navbar-link {
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.button.is-primary, .button.is-light {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.navbar-brand {
+  margin-left: 2rem;
+}
+
+.navbar-menu {
+  margin-right: 2rem;
+}
+
+a.navbar-item:hover {
+  background-color: transparent;
+  color: #2360a4;
+}
+
+.open {
+  color: #2360a4;
+}
+
+/****** END NAVBAR *******/

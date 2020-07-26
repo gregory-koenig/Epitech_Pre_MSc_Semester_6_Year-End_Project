@@ -1,0 +1,27 @@
+.contact {
+  margin-top: 4rem;
+  width: 35rem;
+}
+
+.label {
+  color: #363636;
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.input, .textarea, .select {
+  font-size: 14px;
+}
+
+.button.is-link {
+  background-color: #2360a4;
+  border-color: transparent;
+  color: #fff;
+  font-size: 13px;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+  border-color: #D0B378;
+}

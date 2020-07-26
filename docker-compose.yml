@@ -1,0 +1,37 @@
+version: "3.7"
+
+services:
+  server:
+    image: "node:12.16.3-alpine"
+    volumes:
+      - "./dashboard-back:/home/node/app:rw,consistent"
+    working_dir: "/home/node/app"
+    environment:
+      USER_MONGO: "jules"
+      PASS_MONGO: "Epitech67!"
+      DBNAME_MONGO: "SaaS"
+      DOMAIN_MONGO: "saas-pk6ew.mongodb.net"
+      JWT_SECRET: "project-secret-key"
+    command: "npm start"
+    ports:
+      - "8080:8080"
+    networks:
+      - backnet
+
+  front:
+    image: "node:12.16.3-alpine"
+    volumes:
+      - "./dashboard-front:/home/node/app:rw,consistent"
+    working_dir: "/home/node/app"
+    environment:
+      REACT_APP_DOMAIN_API: "http://localhost:8080/api"
+    command: "npm start"
+    ports:
+      - "3000:3000"
+    stdin_open: true
+    networks:
+      - backnet
+
+networks:
+  backnet:
+    driver: bridge

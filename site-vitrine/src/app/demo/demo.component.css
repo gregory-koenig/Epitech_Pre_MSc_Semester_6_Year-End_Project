@@ -1,0 +1,106 @@
+.demo .title {
+  font-size: 20px;
+  margin: 4rem;
+  margin-bottom: 2rem;
+}
+
+.notification {
+  font-size: 14px;
+  width: 52rem;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.resume {
+  margin-left: 10rem;
+  margin-top: 2rem;
+  width: 52rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.programme {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 52rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.quote {
+  text-align: right;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* margin-left: 4rem; */
+}
+
+.box {
+  margin-left: 4rem;
+  text-align: justify;
+  height: 100%;
+  font-size: 14px;
+  background-color: #f9f9f9!important;
+}
+
+.certificat {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  width: 52rem;
+  text-align: justify;
+  font-size: 14px;
+}
+
+.cours {
+  margin-left: 4rem;
+  margin-top: 1rem;
+  width: 52rem;
+  display: flex;
+  justify-content: unsafe;
+  flex-direction: column;
+  margin-left: 24rem;
+  font-size: 14px;
+}
+
+.button.is-primary.is-inverted.is-outlined {
+  background-color: transparent;
+  border-color: #C6A35A;
+  color: #C6A35A;
+}
+
+.button.is-primary.is-inverted.is-outlined:hover {
+  background-color: #fff;
+  color: #C6A35A;
+}
+
+hr {
+  margin-left: 4rem;
+  margin-right: 15rem;
+}
+
+.prg {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.fa-font-awesome-flag, .fa-trophy, .fa-clock {
+  color: #C6A35A;
+}
+
+.fa-clock {
+  margin-right: 6px;
+}
+
+.tt {
+  color: #C6A35A;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.prg a {
+  color: #C6A35A;
+}
